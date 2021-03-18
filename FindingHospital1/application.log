@@ -1,0 +1,34 @@
+2021-03-18 13:53:14,565 DEBUG [main] DriverSetup:37 - Driver is initialized
+2021-03-18 13:53:14,589 DEBUG [main] DriverSetup:38 - opened the website
+2021-03-18 13:53:33,414 DEBUG [main] DriverSetup:53 - entered hospital in textbox 
+2021-03-18 13:53:38,413 DEBUG [main] DriverSetup:58 - clicked on 'open 24/7' checkbox
+2021-03-18 13:53:42,686 DEBUG [main] DriverSetup:61 - click on drop down
+2021-03-18 13:54:43,080 DEBUG [main] DriverSetup:66 -  Hospital names with rating  displayed on hospitals.xlsx
+2021-03-18 13:57:48,446 DEBUG [main] DriverSetup:37 - Driver is initialized
+2021-03-18 13:57:48,446 DEBUG [main] DriverSetup:38 - opened the website
+2021-03-18 13:59:23,243 DEBUG [main] DriverSetup:37 - Driver is initialized
+2021-03-18 13:59:23,244 DEBUG [main] DriverSetup:38 - opened the website
+2021-03-18 14:00:57,392 DEBUG [main] DriverSetup:37 - Driver is initialized
+2021-03-18 14:00:57,392 DEBUG [main] DriverSetup:38 - opened the website
+2021-03-18 14:02:31,574 DEBUG [main] DriverSetup:37 - Driver is initialized
+2021-03-18 14:02:31,575 DEBUG [main] DriverSetup:38 - opened the website
+2021-03-18 14:04:06,730 DEBUG [main] DriverSetup:37 - Driver is initialized
+2021-03-18 14:04:06,743 DEBUG [main] DriverSetup:38 - opened the website
+2021-03-18 14:05:41,152 DEBUG [main] DriverSetup:37 - Driver is initialized
+2021-03-18 14:05:41,152 DEBUG [main] DriverSetup:38 - opened the website
+2021-03-18 14:07:15,413 DEBUG [main] DriverSetup:37 - Driver is initialized
+2021-03-18 14:07:15,414 DEBUG [main] DriverSetup:38 - opened the website
+2021-03-18 14:08:49,581 DEBUG [main] DriverSetup:37 - Driver is initialized
+2021-03-18 14:08:49,582 DEBUG [main] DriverSetup:38 - opened the website
+2021-03-18 14:10:23,859 DEBUG [main] DriverSetup:37 - Driver is initialized
+2021-03-18 14:10:23,859 DEBUG [main] DriverSetup:38 - opened the website
+2021-03-18 14:11:58,073 DEBUG [main] DriverSetup:37 - Driver is initialized
+2021-03-18 14:11:58,098 DEBUG [main] DriverSetup:38 - opened the website
+2021-03-18 14:15:02,679 DEBUG [main] DriverSetup:37 - Driver is initialized
+2021-03-18 14:15:02,707 DEBUG [main] DriverSetup:38 - opened the website
+2021-03-18 14:15:08,740 DEBUG [main] DriverSetup:480 - entered hospital in textbox 
+2021-03-18 14:15:09,079 DEBUG [main] DriverSetup:37 - Driver is initialized
+2021-03-18 14:15:09,080 DEBUG [main] DriverSetup:38 - opened the website
+2021-03-18 14:15:12,378 DEBUG [main] DriverSetup:495 - entered hospital in textbox 
+2021-03-18 14:15:12,382 DEBUG [main] DriverSetup:37 - Driver is initialized
+2021-03-18 14:15:12,405 DEBUG [main] DriverSetup:38 - opened the website

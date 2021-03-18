@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">21</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1,542,800</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.hospital.qa.testcases.HospitalTest</td><td><a href="#m0">closeBrower</a></td><td rowspan="1">1616057292328</td><td rowspan="1">273</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="21">com.hospital.qa.testcases.HospitalTest</td><td><a href="#m1">InvalidCorporateWellness</a></td><td rowspan="1">1616056068444</td><td rowspan="1">94791</td></tr><tr class="passedeven"><td><a href="#m2">InvalidNameInCw</a></td><td rowspan="1">1616056257390</td><td rowspan="1">94175</td></tr><tr class="passedeven"><td><a href="#m3">InvalidOrgNameCw</a></td><td rowspan="1">1616056351572</td><td rowspan="1">95154</td></tr><tr class="passedeven"><td><a href="#m4">InvalidPhoneNoCw</a></td><td rowspan="1">1616056446729</td><td rowspan="1">94417</td></tr><tr class="passedeven"><td><a href="#m5">alphaNumericPhoneNo</a></td><td rowspan="1">1616056823857</td><td rowspan="1">94197</td></tr><tr class="passedeven"><td><a href="#m6">charPhoneNo</a></td><td rowspan="1">1616056729578</td><td rowspan="1">94275</td></tr><tr class="passedeven"><td><a href="#m7">checkTitle</a></td><td rowspan="1">1616057012364</td><td rowspan="1">90256</td></tr><tr class="passedeven"><td><a href="#m8">clickCorporateWellness</a></td><td rowspan="1">1616055978192</td><td rowspan="1">90246</td></tr><tr class="passedeven"><td><a href="#m9">displayHospitals</a></td><td rowspan="1">1616055794612</td><td rowspan="1">88469</td></tr><tr class="passedeven"><td><a href="#m10">goToTopCity</a></td><td rowspan="1">1616055883086</td><td rowspan="1">95100</td></tr><tr class="passedeven"><td><a href="#m11">hasParkingTest</a></td><td rowspan="1">1616057289714</td><td rowspan="1">37</td></tr><tr class="passedeven"><td><a href="#m12">invalidDisplayLoc</a></td><td rowspan="1">1616057102659</td><td rowspan="1">6082</td></tr><tr class="passedeven"><td><a href="#m13">invalidHospitalName</a></td><td rowspan="1">1616057109077</td><td rowspan="1">3301</td></tr><tr class="passedeven"><td><a href="#m14">nullInvalidForm</a></td><td rowspan="1">1616056163241</td><td rowspan="1">94145</td></tr><tr class="passedeven"><td><a href="#m15">specCharNameInCw</a></td><td rowspan="1">1616056541150</td><td rowspan="1">94256</td></tr><tr class="passedeven"><td><a href="#m16">specOrgNameCw</a></td><td rowspan="1">1616056635412</td><td rowspan="1">94163</td></tr><tr class="passedeven"><td><a href="#m17">testCase</a></td><td rowspan="1">1616055794541</td><td rowspan="1">49</td></tr><tr class="passedeven"><td><a href="#m18">testCheckBox</a></td><td rowspan="1">1616057202588</td><td rowspan="1">86764</td></tr><tr class="passedeven"><td><a href="#m19">testDropdownText</a></td><td rowspan="1">1616057289354</td><td rowspan="1">358</td></tr><tr class="passedeven"><td><a href="#m20">testHospitalTextbox</a></td><td rowspan="1">1616057112381</td><td rowspan="1">90203</td></tr><tr class="passedeven"><td><a href="#m21">wrongFormatPhoneNo</a></td><td rowspan="1">1616056918072</td><td rowspan="1">94288</td></tr></tbody>
+</table>
+<h2>Default test</h2><h3 id="m0">com.hospital.qa.testcases.HospitalTest#closeBrower</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;com.hospital.qa.pages.CorporateWellnessPage.closeBrowser()&quot; because &quot;this.cw&quot; is null
+	at com.hospital.qa.testcases.HospitalTest.closeBrower(HospitalTest.java:544)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.afterRun(TestRunner.java:847)
+	at org.testng.TestRunner.run(TestRunner.java:588)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.hospital.qa.testcases.HospitalTest#InvalidCorporateWellness</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.hospital.qa.testcases.HospitalTest#InvalidNameInCw</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.hospital.qa.testcases.HospitalTest#InvalidOrgNameCw</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.hospital.qa.testcases.HospitalTest#InvalidPhoneNoCw</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.hospital.qa.testcases.HospitalTest#alphaNumericPhoneNo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.hospital.qa.testcases.HospitalTest#charPhoneNo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.hospital.qa.testcases.HospitalTest#checkTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.hospital.qa.testcases.HospitalTest#clickCorporateWellness</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.hospital.qa.testcases.HospitalTest#displayHospitals</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.hospital.qa.testcases.HospitalTest#goToTopCity</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.hospital.qa.testcases.HospitalTest#hasParkingTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.hospital.qa.testcases.HospitalTest#invalidDisplayLoc</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.hospital.qa.testcases.HospitalTest#invalidHospitalName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.hospital.qa.testcases.HospitalTest#nullInvalidForm</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.hospital.qa.testcases.HospitalTest#specCharNameInCw</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.hospital.qa.testcases.HospitalTest#specOrgNameCw</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.hospital.qa.testcases.HospitalTest#testCase</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.hospital.qa.testcases.HospitalTest#testCheckBox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">com.hospital.qa.testcases.HospitalTest#testDropdownText</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">com.hospital.qa.testcases.HospitalTest#testHospitalTextbox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">com.hospital.qa.testcases.HospitalTest#wrongFormatPhoneNo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

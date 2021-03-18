@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.hospital.qa.testcases.HospitalTest">
+        <methods>
+          <include name="invalidDisplayLoc"/>
+          <include name="testCheckBox"/>
+          <include name="testDropdownText"/>
+          <include name="alphaNumericPhoneNo"/>
+          <include name="specCharNameInCw"/>
+          <include name="setUp"/>
+          <include name="testCase"/>
+          <include name="displayHospitals"/>
+          <include name="wrongFormatPhoneNo"/>
+          <include name="InvalidOrgNameCw"/>
+          <include name="flush"/>
+          <include name="clickCorporateWellness"/>
+          <include name="specOrgNameCw"/>
+          <include name="hasParkingTest"/>
+          <include name="checkTitle"/>
+          <include name="goToTopCity"/>
+          <include name="InvalidCorporateWellness"/>
+          <include name="invalidHospitalName"/>
+          <include name="closeBrower"/>
+          <include name="InvalidNameInCw"/>
+          <include name="charPhoneNo"/>
+          <include name="InvalidPhoneNoCw"/>
+          <include name="nullInvalidForm"/>
+          <include name="testHospitalTextbox"/>
+        </methods>
+      </class> <!-- com.hospital.qa.testcases.HospitalTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

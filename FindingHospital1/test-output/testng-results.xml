@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-18T13:52:31 IST" name="Default suite" finished-at="2021-03-18T14:18:14 IST" duration-ms="1542800">
+    <groups>
+    </groups>
+    <test started-at="2021-03-18T13:52:31 IST" name="Default test" finished-at="2021-03-18T14:18:14 IST" duration-ms="1542800">
+      <class name="com.hospital.qa.testcases.HospitalTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T13:52:31 IST" name="setUp" finished-at="2021-03-18T13:53:14 IST" duration-ms="42645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCase()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T13:53:14 IST" name="testCase" finished-at="2021-03-18T13:53:14 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T13:53:14 IST" name="flush" finished-at="2021-03-18T13:53:14 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method signature="displayHospitals()[pri:1, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T13:53:14 IST" name="displayHospitals" finished-at="2021-03-18T13:54:43 IST" depends-on-methods="com.hospital.qa.testcases.HospitalTest.testCase" duration-ms="88469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayHospitals -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T13:54:43 IST" name="flush" finished-at="2021-03-18T13:54:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method signature="goToTopCity()[pri:2, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T13:54:43 IST" name="goToTopCity" finished-at="2021-03-18T13:56:18 IST" depends-on-methods="com.hospital.qa.testcases.HospitalTest.displayHospitals" duration-ms="95100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToTopCity -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T13:56:18 IST" name="flush" finished-at="2021-03-18T13:56:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method signature="clickCorporateWellness()[pri:3, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T13:56:18 IST" name="clickCorporateWellness" finished-at="2021-03-18T13:57:48 IST" duration-ms="90246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCorporateWellness -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T13:57:48 IST" name="flush" finished-at="2021-03-18T13:57:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method signature="InvalidCorporateWellness()[pri:4, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T13:57:48 IST" name="InvalidCorporateWellness" finished-at="2021-03-18T13:59:23 IST" duration-ms="94791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidCorporateWellness -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T13:59:23 IST" name="flush" finished-at="2021-03-18T13:59:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method signature="nullInvalidForm()[pri:5, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T13:59:23 IST" name="nullInvalidForm" finished-at="2021-03-18T14:00:57 IST" duration-ms="94145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nullInvalidForm -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:00:57 IST" name="flush" finished-at="2021-03-18T14:00:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method signature="InvalidNameInCw()[pri:6, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:00:57 IST" name="InvalidNameInCw" finished-at="2021-03-18T14:02:31 IST" duration-ms="94175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidNameInCw -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:02:31 IST" name="flush" finished-at="2021-03-18T14:02:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method signature="InvalidOrgNameCw()[pri:7, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:02:31 IST" name="InvalidOrgNameCw" finished-at="2021-03-18T14:04:06 IST" duration-ms="95154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidOrgNameCw -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:04:06 IST" name="flush" finished-at="2021-03-18T14:04:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method signature="InvalidPhoneNoCw()[pri:8, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:04:06 IST" name="InvalidPhoneNoCw" finished-at="2021-03-18T14:05:41 IST" duration-ms="94417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidPhoneNoCw -->
+        <test-method signature="specCharNameInCw()[pri:9, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:05:41 IST" name="specCharNameInCw" finished-at="2021-03-18T14:07:15 IST" duration-ms="94256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- specCharNameInCw -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:05:41 IST" name="flush" finished-at="2021-03-18T14:05:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:07:15 IST" name="flush" finished-at="2021-03-18T14:07:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method signature="specOrgNameCw()[pri:10, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:07:15 IST" name="specOrgNameCw" finished-at="2021-03-18T14:08:49 IST" duration-ms="94163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- specOrgNameCw -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:08:49 IST" name="flush" finished-at="2021-03-18T14:08:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method signature="charPhoneNo()[pri:11, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:08:49 IST" name="charPhoneNo" finished-at="2021-03-18T14:10:23 IST" duration-ms="94275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- charPhoneNo -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:10:23 IST" name="flush" finished-at="2021-03-18T14:10:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method signature="alphaNumericPhoneNo()[pri:12, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:10:23 IST" name="alphaNumericPhoneNo" finished-at="2021-03-18T14:11:58 IST" duration-ms="94197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alphaNumericPhoneNo -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:11:58 IST" name="flush" finished-at="2021-03-18T14:11:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method signature="wrongFormatPhoneNo()[pri:13, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:11:58 IST" name="wrongFormatPhoneNo" finished-at="2021-03-18T14:13:32 IST" duration-ms="94288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongFormatPhoneNo -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:13:32 IST" name="flush" finished-at="2021-03-18T14:13:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method signature="checkTitle()[pri:14, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:13:32 IST" name="checkTitle" finished-at="2021-03-18T14:15:02 IST" duration-ms="90256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:15:02 IST" name="flush" finished-at="2021-03-18T14:15:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method signature="invalidDisplayLoc()[pri:15, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:15:02 IST" name="invalidDisplayLoc" finished-at="2021-03-18T14:15:08 IST" duration-ms="6082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDisplayLoc -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:15:08 IST" name="flush" finished-at="2021-03-18T14:15:09 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method signature="invalidHospitalName()[pri:16, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:15:09 IST" name="invalidHospitalName" finished-at="2021-03-18T14:15:12 IST" duration-ms="3301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidHospitalName -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:15:12 IST" name="flush" finished-at="2021-03-18T14:15:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method signature="testHospitalTextbox()[pri:17, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:15:12 IST" name="testHospitalTextbox" finished-at="2021-03-18T14:16:42 IST" duration-ms="90203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHospitalTextbox -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:16:42 IST" name="flush" finished-at="2021-03-18T14:16:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method signature="testCheckBox()[pri:18, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:16:42 IST" name="testCheckBox" finished-at="2021-03-18T14:18:09 IST" duration-ms="86764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckBox -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:18:09 IST" name="flush" finished-at="2021-03-18T14:18:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method signature="testDropdownText()[pri:19, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:18:09 IST" name="testDropdownText" finished-at="2021-03-18T14:18:09 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDropdownText -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:18:09 IST" name="flush" finished-at="2021-03-18T14:18:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method signature="hasParkingTest()[pri:20, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:18:09 IST" name="hasParkingTest" finished-at="2021-03-18T14:18:09 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hasParkingTest -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:18:09 IST" name="flush" finished-at="2021-03-18T14:18:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:com.hospital.qa.testcases.HospitalTest@6f8e8894]" started-at="2021-03-18T14:18:12 IST" name="closeBrower" finished-at="2021-03-18T14:18:12 IST" duration-ms="273" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.hospital.qa.pages.CorporateWellnessPage.closeBrowser()" because "this.cw" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.hospital.qa.pages.CorporateWellnessPage.closeBrowser()" because "this.cw" is null
+at com.hospital.qa.testcases.HospitalTest.closeBrower(HospitalTest.java:544)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.afterRun(TestRunner.java:847)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+      </class> <!-- com.hospital.qa.testcases.HospitalTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
